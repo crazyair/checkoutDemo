@@ -1,0 +1,637 @@
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  height: 100%;
+}
+body {
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   background: #ececec;
+}
+h2 {
+    margin: 20px 0;
+}
+
+h3 {
+    margin: 10px 0;
+}
+.pull-left {
+    float: left;
+}
+.pull-right {
+    float: right;
+}
+.inline-block {
+    display: inline-block;
+}
+.warning-color {
+    color: #fdd135 !important;
+}
+.text-center {
+    text-align: center;
+}
+.ant-layout-header {
+    padding:0;
+    background: #1d1d32;
+    height: 64px;
+}
+.ant-input:focus yjj-menu{
+    outline: 0;
+    box-shadow: none !important;
+}
+.ant-btn {
+    font-size: 14px;
+    min-width: 125px;
+}
+.ant-input {
+    min-width: 210px;
+    color: #333333 !important;
+}
+
+.mt15 {
+    margin-top: 15px;
+}
+.ant-modal-wrap {
+    top: 20%;
+}
+.has-error {
+    .ant-input-group-addon,
+    .ant-input,
+    .ant-input:hover,
+    .ant-input:not([disabled]):hover,
+    .ant-input:focus {
+        border-color: #d9d9d9;
+    }
+}
+
+.batch {
+    p {
+        font-size: 14px;
+    }
+    .tip-info {
+        font-size: 12px;
+        color: #da4423;
+    }
+}
+
+.batch-detail {
+    .title {
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+}
+
+.yjj-layout-container {
+    padding: 50px 50px 0 50px;
+    background: #ececec;
+
+    .ant-layout-content {
+        min-height: 768px;
+    }
+    .yjj-layout-content {
+        border-radius: 4px;
+        padding: 24px 0;
+        background: #fff;
+    }
+}
+/*-- 通用询问框 less start--*/
+.ant-confirm {
+    .ant-confirm-btns {
+        text-align: center;
+        float: none;
+    }
+    .ant-modal-body {
+        padding: 30px;
+    }
+    .ant-confirm-body {
+        .ant-confirm-content {
+            margin-left: 0;
+        }
+
+        .yjj-modal-info {
+            p {
+                font-size: 14px;
+                padding-top: 20px;
+            }
+            .anticon {
+                font-size: 38px;
+                color: #504eaf;
+            }
+        }
+        .confirm-btns {
+            margin: 0 auto;
+        }
+    }
+}
+/*-- 通用询问框 less end--*/
+.ant-layout-top .ant-layout-footer {
+  height: 64px;
+  line-height: 64px;
+  text-align: center;
+  font-size: 12px;
+  color: #999;
+}
+.yjj-footer {
+    position: fixed;
+    _position: static;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    clear: both;
+    line-height: 36px;
+    text-align: center;
+    color: #b6b6b6;
+}
+.yjj-header {
+    overflow: hidden;
+    height:60px;
+    background: #1d1d32;
+    .ant-layout-logo {
+        height: 30px;
+        line-height: 30px;
+        color: #fff;
+        font-size: 24px;
+        font-weight: 300;
+        border-radius: 6px;
+        margin: 17px 50px 16px 50px;
+        float: left;
+        text-align: center;
+        text-shadow: 1px 0 0 rgba(30,29,30,1);
+    }
+    .ant-menu-dark.ant-menu-horizontal {
+        border-bottom-color: #1d1d32 !important;
+    }
+    .ant-menu-dark.ant-menu-horizontal >
+    .ant-menu-item, .ant-menu-dark.ant-menu-horizontal >
+    .ant-menu-submenu {
+        font-size: 14px;
+    }
+    .ant-menu-dark,
+    .ant-menu-dark .ant-menu-sub {
+        background: #1d1d32 !important;
+    }
+
+    .user {
+        padding-right: 60px;
+        position: absolute;
+        height: 64px;
+        line-height: 64px;
+        top: 0;
+        right: 10px;
+        span {
+            font-size: 13px;
+            padding: 0 5px;
+            color: #fff;
+            cursor: pointer;
+        }
+
+
+    }
+
+}
+ul.user-dropdown {
+    background: #1d1d32;
+    color: #fff;
+    .ant-dropdown-menu-item-active {
+        background: #1d1d32;
+    }
+    .ant-dropdown-menu-item > a,
+    .ant-dropdown-menu-submenu-title > a {
+        color: #fff;
+    }
+}
+
+.ant-layout-container {
+    margin: 0 60px;
+    padding: 0 10px;
+}
+
+
+.text-center {
+    text-align: center;
+}
+.pr{
+    position: relative;
+}
+
+/*-- login less start --*/
+.login-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    background: #fff;
+
+    .login-container {
+        margin: 0 auto;
+        padding-top: 120px;
+        width: 470px;
+        height: 390px;
+        .login-logo {
+            width: 272px;
+            height: 32px;
+            margin: 0 auto;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        .login-box {
+            padding: 70px;
+            box-shadow: 0px 0px 11px 2px rgba(0,0,0,.1);
+            font-size: 14px;
+            border-radius: 2px;
+            .ant-input-group-addon {
+                padding: 4px 10px !important;
+                font-size: 20px !important;
+            }
+            .phone-code{
+                .ant-input-group-addon:last-child{
+                    padding: 0 !important;
+                    font-size: 1px !important;
+                    border: 0 !important;
+                    img{
+                        height:28px;
+                    }
+                }
+            }
+        }
+
+        .ant-form-explain{
+          padding-left: 48px;
+          padding-top: 5px;
+          color:#f50;
+        }
+
+        .login-form-button {
+          width: 100%;
+        }
+    }
+}
+.v-code-container{
+
+}
+/*-- login less end --*/
+span.color999{
+    color: #999;
+}
+.yy-account-set-comp {
+    width: 420px;
+    .ant-input {
+        min-width: auto;
+    }
+    ant-form-item-label{
+        text-align: left;
+    }
+    .ant-form-item{
+        margin-bottom: 0;
+    }
+    .ant-form-item-label {
+        text-align: left !important;
+    }
+    .fz-14 .ant-form-item-label label{
+        font-size: 14px;
+    }
+    .distinguish {
+        border-bottom: 1px solid #d9d9d9;
+    }
+}
+
+.yjj-search-form {
+    .ant-form-item {
+        margin-bottom: 10px;
+    }
+  .ant-input{
+    height: 32px;
+  }
+  .ant-form-inline .ant-form-item {
+    margin-bottom: 5px;
+  }
+
+    .ant-btn + .ant-btn {
+        margin-left: 20px;
+    }
+}
+.yjj-advanced-search-form {
+    border-radius: 4px;
+    padding: 16px 8px 8px 20px;
+    background: #f7f7f7;
+}
+.ant-select-lg {
+    .ant-select-selection--single {
+        height: 35px;
+        .ant-select-selection__rendered {
+            line-height: 34px;
+        }
+    }
+}
+
+.ant-upload-select-picture-card i {
+  font-size: 28px;
+  color: #999;
+}
+.ant-upload.ant-upload-select {
+    display: inline;
+}
+.ant-upload-select-picture-card {
+    .ant-upload-text {
+        margin-top: 8px;
+        font-size: 12px;
+        color: #666;
+    }
+}
+
+/*-- 上传图片展示通用样式 start--*/
+.upload-example {
+    position: relative;
+    display: inline-block;
+    height: 96px;
+    width: 96px;
+    padding: 8px;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    vertical-align: top;
+    &:hover {
+        &:before {
+          opacity: .8;
+        }
+        .anticon-eye-o,
+        .anticon-delete {
+           opacity: 1;
+       }
+    }
+
+    span {
+        position: absolute;
+        bottom: 8px;
+        left: 8px;
+        width: 78px;
+        height: 24px;
+        color: #fff;
+        line-height: 24px;
+        text-align: center;
+    }
+    &:before {
+        content: ' ';
+          position: absolute;
+          z-index: 1;
+          background-color: #808080;
+          -webkit-transition: all 0.3s ease;
+          /* transition: all 0.3s ease; */
+          opacity: 0;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+    }
+    .anticon-delete {
+        left: 50%;
+        margin-left: 6px;
+    }
+    .anticon-eye-o,
+    .anticon-delete {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        z-index: 10;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        font-size: 16px;
+        width: 16px;
+        line-height: 1;
+        color: #eee;
+        opacity: 0;
+        margin-top: -8px;
+        margin-left: -22px
+    }
+    look {
+        left: 65%;
+    }
+    img {
+        height: 78px;
+        width: 78px;
+    }
+}
+.ant-modal-body img {
+    display: block;
+    width: 100%;
+}
+/*-- 上传图片展示通用样式 end--*/
+
+
+.recharge-detail {
+    margin: 10px 0;
+}
+.account {
+    vertical-align: -2px;
+    color: #da4423;
+    font-size: 22px;
+}
+
+.reset-form-style {
+    .ant-input-group-addon {
+        background: none;
+        color: #999;
+    }
+
+    .has-success.has-feedback,
+    .has-error.has-feedback {
+        &:after {
+            z-index: 999;
+        }
+    }
+
+    .has-error .ant-input,
+    .has-error .ant-input:hover,
+    .has-error .ant-input:focus {
+        box-shadow: none;
+    }
+    .ant-input {
+
+        &:hover{
+             border-color: #d9d9d9;
+        }
+        &:focus {
+             border-color: #d9d9d9;
+        }
+    }
+
+    .ant-input {
+
+        padding-left: 0;
+        border-left: 0;
+    }
+    .anticon-delete {
+        left: 50%;
+        margin-left: 6px;
+    }
+    .avatar-uploader,
+    .avatar-uploader-trigger,
+    .avatar {
+      width: 96px;
+      height: 96px;
+    }
+    .avatar-uploader {
+      display: block;
+      border: 1px dashed #d9d9d9;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .avatar-uploader-trigger {
+      display: table-cell !important;
+      vertical-align: middle !important;
+      font-size: 28px !important;
+      color: #999 !important;
+    }
+}
+
+/*-- 线下充值form less start --*/
+.recharge-container{
+    top: 0;
+    .ant-modal-title {
+        text-align: center;
+        font-size: 16px;
+        color: #666;
+    }
+    .ant-modal-header {
+        padding-bottom: 0;
+        border-bottom: 0;
+    }
+    .rechage-text {
+        padding-bottom: 15px;
+        border-bottom: 1px solid #d9d9d9;
+    }
+    .ant-modal-body {
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-bottom: 0;
+    }
+
+    .ant-modal-footer {
+        padding-bottom: 20px;
+        padding-top: 0;
+        padding-left: 60px;
+        text-align: left;
+        border-top: 0;
+    }
+
+    .ant-modal-content {
+        padding: 16px 0;
+    }
+
+}
+/*-- 线下充值form less end --*/
+
+
+/*重置财务管理弹框展示信息input颜色*/
+
+.audit-form .ant-input[disabled],
+.delear-manage-from .ant-input[disabled] ,
+.financial-container .ant-input[disabled] {
+    background: #fff;
+    color: #999 !important;
+}
+.financial-title {
+    font-size: 16px;
+    color: #333;
+    padding-bottom: 20px;
+}
+.financial-container {
+    top: 0;
+    .ant-input {
+        border:1px solid #e6e6e6;
+        border-left: 0;
+    }
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+.ant-modal-close-x {
+    font-size: 22px;
+    font-weight: lighter;
+}
+.payment-modal {
+    .payment-title {
+        padding: 10px 0 20px 0;
+        font-size: 16px;
+    }
+    .ant-modal-body {
+        padding: 30px;
+    }
+    .ant-modal-header {
+        border-bottom: none;
+    }
+    .ant-modal-title {
+        text-align: center;
+    }
+    .ant-modal-footer {
+        text-align: center;
+        padding: 0 0 30px 0;
+        border-top: none;
+    }
+}
+.audit-modal {
+    .audit-form {
+        margin-top: 25px;
+    }
+    .audit-btn-group {
+        button {
+            width: 100%;
+        }
+    }
+    .ant-modal-body {
+        padding: 30px;
+    }
+
+}
+
+.ant-confirm-success div.ant-confirm-btns {
+    text-align: center;
+    float: none;
+}
+
+/*重置密码 css start*/
+.reset-pass-container {
+    width: 300px;
+    .reset-pass-btn {
+        width: 48%;
+    }
+    .title {
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+}
+
+
+/*商户管理 css start*/
+.delear-manage {
+    width: 530px;
+    .title {
+        padding: 5px 0 15px 0;
+        font-size: 16px;
+        font-weight: bold;
+        color: #333;
+    }
+}
+.dealer-info-edit {
+    user-select:none;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 0;
+    color: #504eaf;
+}
+
+
+/***** input 说明文案样式 *****/
+.ant-form-explain{
+    padding-top: 5px;
+}
+.record-title {
+    font-size: 16px;
+    color: #333;
+    padding-bottom: 15px;
+}
